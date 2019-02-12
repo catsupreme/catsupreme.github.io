@@ -1,0 +1,25 @@
+* {
+ box-sizing: border-box;
+}
+
+html, body {
+	min-height:100%;
+}
+
+body {
+	font-size: 100%;
+	background-color: black;
+	color: white;
+}
+ li {
+   background-color:green;
+   color:red;
+  min-height: 150px;
+  font-size: 50px;
+ }
+img {
+width:500px;
+}
+p {
+	font-size:300%;
+}
