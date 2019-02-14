@@ -1,5 +1,8 @@
 h1 {
 			color:#eb7e7f;
+			margin: 0px;
+			padding: 0px;
+			border: 0px;
 		}
 		h3 {
 			color:#eb7e7f;
@@ -7,6 +10,7 @@ h1 {
 		body {
 			background-color:#3b3f45;
 			color:white;
+			margin: 0px;
 		}
 		small {
 			color:#88839e;
@@ -14,3 +18,85 @@ h1 {
 p {
 	text-align: justify;
 }		
+.outer {
+    width: 1500px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #4a4f56;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.inner {
+    display: inline-block;
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    
+}
+.col1 {
+	text-align: center;
+	background-color: #88839e;
+	padding-right: 250px;	
+   
+}
+
+.col2 {
+	text-align: center;
+	background-color: #88839e;
+	padding-right: 270px;
+
+}
+.col3 {
+	text-align: center;
+	background-color: #7a7593;
+	padding-right: 275px;
+    
+}
+.col4 {
+	text-align: center;
+	background-color:#88839e;
+	padding-right: 430px;
+
+}
+.col5 {
+	background-color: #4a4f56;
+	text-align: center;
+    margin: 30px;
+}
+.col6 {
+	background-color: #7a7593;
+	text-align: center;
+	padding-right: 275px;
+}
+.col7 {
+	text-align: center;
+	background-color: #7a7593;
+	padding-right: 265px;
+}
+li {
+	height: 35px;
+	list-style-type: none;
+
+}
+h3 {
+	height: 35px;
+}
+ul {
+	margin-left: 0;
+	padding-left: 0;
+
+}
+* {
+	margin: 0px;
+}
+.col1:hover, .col2:hover, .col7:hover, .col3:hover, .col4:hover, .col6:hover {
+	background-color: #625e77;
+	outline: 2px solid #ffffff;
+
+}
+
+checkbox {
+	height: 50px;
+}
