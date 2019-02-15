@@ -52,3 +52,11 @@ p.col11 {
 h3 {
 	color: white;
 }
+.col2:hover:before{
+	opacity: 0.6;
+	color: #ffffff;
+
+}
+p {
+	opacity: 0.5;
+}

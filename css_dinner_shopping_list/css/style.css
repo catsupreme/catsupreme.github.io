@@ -18,7 +18,7 @@ h1 {
 p {
 	text-align: justify;
 }		
-.outer {
+outer {
     width: 1500px;
     height: 70px;
     text-align: center;
@@ -28,7 +28,7 @@ p {
     padding: 0px;
     border: 0px;
 }
-.inner {
+inner {
     display: inline-block;
     width: 1500px;
     height: 100px;
@@ -38,8 +38,8 @@ p {
 .col1 {
 	text-align: center;
 	background-color: #88839e;
-	padding-right: 250px;	
-   
+	padding-right: 250px;
+      
 }
 
 .col2 {
@@ -63,7 +63,7 @@ p {
 .col5 {
 	background-color: #4a4f56;
 	text-align: center;
-    margin: 30px;
+    
 }
 .col6 {
 	background-color: #7a7593;
@@ -89,11 +89,14 @@ ul {
 
 }
 * {
-	margin: 0px;
+	margin: 0x;
 }
 .col1:hover, .col2:hover, .col7:hover, .col3:hover, .col4:hover, .col6:hover {
 	background-color: #625e77;
 	outline: 2px solid #ffffff;
 
+}
+.col1:hover:after {
+	text-decoration: line-through;
 }
 
