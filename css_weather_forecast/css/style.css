@@ -4,60 +4,65 @@
  body {
  	background-color: #3399cc;
  }
-table {
-    color: white;
-    background:#3399cc;
-    border: 2px double #ffffff;
-    border-collapse: collapse;
-    
-}
-td.col1 {
-	background:#33cccc;
-}
-td.col2 {
-	background: #996699;
-}
-td.col3 {
-	background:#c24747;
-}
-td.col4 {
-	background: #e2674a;
-}
-td.col5 {
-	background: #ffcc66;
-}
-td.col6 {
-	background: #99cc99;
-}
-td.col7 {
-	background: #669999;
-}
-td.col8 {
-	background: #cc6699;
-}
-td.col9 {
-	background: #339966;
-}
-td.col10 {
-	background: #666699;
-}
-th, td {
-	border: 1px solid:#ffffff;
-	padding: 1px;
-}
-p.col11 {
-	color: white;
-	text-align: center;
-	opacity: 1;
-}
-h3 {
-	color: white;
-}
-.col2:hover:before{
-	opacity: 0.6;
-	color: #ffffff;
+ table {
+ 	color: white;
+ 	background:#3399cc;
+ 	border: 2px double #ffffff;
+ 	border-collapse: collapse;
 
-}
-p {
-	opacity: 0.5;
-}
+ }
+ td.col1 {
+ 	background:#33cccc;
+ }
+ td.col2 {
+ 	background: #996699;
+ }
+ td.col3 {
+ 	background:#c24747;
+ }
+ td.col4 {
+ 	background: #e2674a;
+ }
+ td.col5 {
+ 	background: #ffcc66;
+ }
+ td.col6 {
+ 	background: #99cc99;
+ }
+ td.col7 {
+ 	background: #669999;
+ }
+ td.col8 {
+ 	background: #cc6699;
+ }
+ td.col9 {
+ 	background: #339966;
+ }
+ td.col10 {
+ 	background: #666699;
+ }
+ th, td {
+ 	border: 1px solid:#ffffff;
+ 	padding: 1px;
+ }
+ p.col11 {
+ 	color: white;
+ 	text-align: center;
+ 	opacity: 1;
+ 	padding-right: 30px;
+ }
+ h3 {
+ 	color: white; 	
+ 	padding-right: 290px;
+ }
+ .col2:hover:before{
+ 	opacity: 0.6;
+ 	color: #ffffff;
+
+ }
+ p {
+ 	opacity: 0.5;
+ }
+ table:hover td:not(:hover) {
+ 	opacity: 0.5;
+ }

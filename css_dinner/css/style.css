@@ -3,14 +3,17 @@ h1 {
 			margin: 0px;
 			padding: 0px;
 			border: 0px;
+			background-color: #4a4f56;
 		}
 		h3 {
 			color:#eb7e7f;
+			background-color: #4a4f56;
 		}
 		body {
 			background-color:#3b3f45;
 			color:white;
 			margin: 0px;
+
 		}
 		small {
 			color:#88839e;
@@ -39,7 +42,11 @@ inner {
 	text-align: center;
 	background-color: #88839e;
 	padding-right: 250px;
-      
+	display: block;
+    cursor: pointer;
+    margin: 10px 500px 0px 500px;
+
+
 }
 
 .col2 {
@@ -74,6 +81,7 @@ inner {
 	text-align: center;
 	background-color: #7a7593;
 	padding-right: 265px;
+
 }
 li {
 	height: 35px;
@@ -86,17 +94,23 @@ h3 {
 ul {
 	margin-left: 0;
 	padding-left: 0;
-
 }
 * {
-	margin: 0x;
+	margin: 0;
+	padding:0px;
+	box-sizing: border-box;
 }
 .col1:hover, .col2:hover, .col7:hover, .col3:hover, .col4:hover, .col6:hover {
 	background-color: #625e77;
-	outline: 2px solid #ffffff;
-
+	outline: 2px solid #ffffff ;
+    
 }
 .col1:hover:after {
 	text-decoration: line-through;
 }
-
+.block {
+	width: 20px
+}
+[type="checkbox"]:checked ~ * {
+	text-decoration: line-through;
+}
