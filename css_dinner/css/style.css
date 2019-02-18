@@ -22,23 +22,7 @@ small {
 p {
 	text-align: justify;
 }		
-outer {
-	width: 1500px;
-	height: 70px;
-	text-align: center;
-	vertical-align: middle;
-	background-color: #4a4f56;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-inner {
-	display: inline-block;
-	width: 1500px;
-	height: 100px;
-	text-align: center;
 
-}
 .col1 {
 	text-align: center;
 	background-color: #88839e;
