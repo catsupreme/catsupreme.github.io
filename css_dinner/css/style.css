@@ -1,51 +1,52 @@
 h1 {
-			color:#eb7e7f;
-			margin: 0px;
-			padding: 0px;
-			border: 0px;
-			background-color: #4a4f56;
-		}
-		h3 {
-			color:#eb7e7f;
-			background-color: #4a4f56;
-		}
-		body {
-			background-color:#3b3f45;
-			color:white;
-			margin: 0px;
+	color:#eb7e7f;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #4a4f56;
+}
+h3 {
+	color:#eb7e7f;
+	background-color: #4a4f56;
+}
+body {
+	background-color:#3b3f45;
+	color:white;
+	margin: 0px;
 
-		}
-		small {
-			color:#88839e;
-		}
+}
+small {
+	color:#88839e;
+	opacity: 1;
+}
 p {
 	text-align: justify;
 }		
 outer {
-    width: 1500px;
-    height: 70px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: #4a4f56;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+	width: 1500px;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #4a4f56;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 inner {
-    display: inline-block;
-    width: 1500px;
-    height: 100px;
-    text-align: center;
-    
+	display: inline-block;
+	width: 1500px;
+	height: 100px;
+	text-align: center;
+
 }
 .col1 {
 	text-align: center;
 	background-color: #88839e;
 	padding-right: 250px;
 	display: block;
-    cursor: pointer;
-    margin: 10px 500px 0px 500px;
-
+	cursor: pointer;
+	margin: 10px 500px 0px 500px;
+	
 
 }
 
@@ -53,35 +54,44 @@ inner {
 	text-align: center;
 	background-color: #88839e;
 	padding-right: 270px;
-
+	margin: 0px 500px 0px 500px;
+	display: block;
+	cursor: pointer;
 }
 .col3 {
 	text-align: center;
 	background-color: #7a7593;
 	padding-right: 275px;
-    
+	margin: 0px 500px 0px 500px;
+	display: block;
+	cursor: pointer;
 }
 .col4 {
 	text-align: center;
 	background-color:#88839e;
 	padding-right: 430px;
-
+	margin: 0px 500px 0px 500px;
+	cursor: pointer;
 }
 .col5 {
 	background-color: #4a4f56;
 	text-align: center;
-    
+	margin: 10px 500px 0px 500px;
+
 }
 .col6 {
 	background-color: #7a7593;
 	text-align: center;
 	padding-right: 275px;
+	margin: 0px 500px 0px 500px;
+	cursor: pointer;
 }
 .col7 {
 	text-align: center;
 	background-color: #7a7593;
 	padding-right: 265px;
-
+	margin: 0px 500px 0px 500px;
+	cursor: pointer;
 }
 li {
 	height: 35px;
@@ -103,14 +113,21 @@ ul {
 .col1:hover, .col2:hover, .col7:hover, .col3:hover, .col4:hover, .col6:hover {
 	background-color: #625e77;
 	outline: 2px solid #ffffff ;
-    
+
 }
-.col1:hover:after {
-	text-decoration: line-through;
+.col1:active, .col2:active, .col3:active, .col4:active, .col7:active, .col6:active {
+	background-color: #eb7e7f;
 }
+
 .block {
 	width: 20px
 }
-[type="checkbox"]:checked ~ * {
-	text-decoration: line-through;
+.sub [type="checkbox"]:checked ~ *{
+	text-decoration: line-through solid #a3a0b5;
+	opacity: 0.5;
+	color: #a3a0b5;
+
 }
+
+
+
