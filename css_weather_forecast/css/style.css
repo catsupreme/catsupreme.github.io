@@ -1,50 +1,95 @@
- td {
+ li {
  	border: 3px solid #ffffff;
- }
+ 	list-style-type: none;
+	display: none;
+
+ 	 }
  body {
  	background-color: #3399cc;
  }
- table {
+ ul {
  	color: white;
- 	background:#3399cc;
- 	border: 2px double #ffffff;
- 	border-collapse: collapse;
+ 	background:#3399cc; 
+ 	list-style: none;
+ 	text-decoration: none;
+ 	border: none;
 
+  }
+ li.col12 {
+ 	padding: 0;
+ 	margin: 0 0 0 0;
+ 	width: 242px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col1 {
+ li.col1 {
  	background:#33cccc;
+ 	padding: 0;
+ 	width: 137px;
+ 	text-align: center;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	display: block;
  }
- td.col2 {
+ li.col2 {
  	background: #996699;
+ 	width: 122.5px;
+	display: inline;
+	border: solid 2px #fff;
+	outline: solid 2px #fff;
+	box-sizing: border-box;
+	
  }
- td.col3 {
+ li.col3 {
  	background:#c24747;
+	width: 122.5px;
+	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
+ 	
  }
- td.col4 {
+ li.col4 {
  	background: #e2674a;
+ 	width: 143px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col5 {
+ li.col5 {
  	background: #ffcc66;
+ 	width: 137px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col6 {
+ li.col6 {
  	background: #99cc99;
+ 	width: 122.5px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col7 {
+ li.col7 {
  	background: #669999;
+ 	width: 122.5px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col8 {
+ li.col8 {
  	background: #cc6699;
+ 	width: 288px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col9 {
+ li.col9 {
  	background: #339966;
+ 	padding: 0;
+ 	width: 122.5px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;
  }
- td.col10 {
+ li.col10 {
  	background: #666699;
  }
- th, td {
- 	border: 1px solid:#ffffff;
- 	padding: 1px;
- }
+ 
  p.col11 {
  	color: white;
  	text-align: center;
@@ -63,6 +108,36 @@
  p {
  	opacity: 0.5;
  }
- table:hover td:not(:hover) {
+ ul:hover li:not(:hover) {
  	opacity: 0.5;
  }
+ ul.what {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ li.col12, li.col1, li.col2 {
+ 	
+ 	margin: 0 0 0 0;
+ 	display: inline-block;
+ }
+ li.col3, li.col4, li.col5, li.col6 {
+ 	
+ 	margin: 0;
+ 	display: inline-block;
+ 	padding: 0;
+ }
+ li.col7, li.col8, li.col9 {
+ 	
+ 	margin: 0;
+ 	display: inline-block;
+ }
+ li.col10 {
+ 	width: 550px;
+ 	margin: 0;
+ 	display: inline-block;
+ 	}
+ 	div {
+ 		margin: 0;
+ 		padding: 0;
+ 		border: 0;
+ 	}
