@@ -35,16 +35,21 @@ p {
 	padding-right: 250px;
 	display: block;
 	cursor: pointer;
-	margin: 10px 500px 0px 500px;
-	
-
-}
+	width: 286px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	}
 
 .col2 {
 	text-align: center;
 	background-color: #88839e;
 	padding-right: 270px;
-	margin: 0px 500px 0px 500px;
+	width: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	display: block;
 	cursor: pointer;
 }
@@ -52,7 +57,11 @@ p {
 	text-align: center;
 	background-color: #7a7593;
 	padding-right: 275px;
-	margin: 0px 500px 0px 500px;
+	width: 261px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	display: block;
 	cursor: pointer;
 }
@@ -60,27 +69,43 @@ p {
 	text-align: center;
 	background-color:#88839e;
 	padding-right: 430px;
-	margin: 0px 500px 0px 500px;
+	width: 106px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	cursor: pointer;
 }
 .col5 {
 	background-color: #4a4f56;
 	text-align: center;
-	margin: 10px 500px 0px 500px;
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 
 }
 .col6 {
 	background-color: #7a7593;
 	text-align: center;
 	padding-right: 275px;
-	margin: 0px 500px 0px 500px;
+	width: 261px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	cursor: pointer;
 }
 .col7 {
 	text-align: center;
 	background-color: #7a7593;
 	padding-right: 265px;
-	margin: 0px 500px 0px 500px;
+	width: 271px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	cursor: pointer;
 }
 li {
