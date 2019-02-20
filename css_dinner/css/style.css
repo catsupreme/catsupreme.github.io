@@ -1,19 +1,25 @@
-h1 {
+h1.bee {
 	color:#eb7e7f;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	background-color: #4a4f56;
+
+	
 }
 h3 {
 	color:#eb7e7f;
 	background-color: #4a4f56;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 20px;
+
 }
 body {
 	background-color:#3b3f45;
 	color:white;
 	margin: 0px;
-
 }
 small {
 	color:#88839e;
@@ -89,11 +95,7 @@ ul {
 	margin-left: 0;
 	padding-left: 0;
 }
-* {
-	margin: 0;
-	padding:0px;
-	box-sizing: border-box;
-}
+
 .col1:hover, .col2:hover, .col7:hover, .col3:hover, .col4:hover, .col6:hover {
 	background-color: #625e77;
 	outline: 2px solid #ffffff ;
@@ -112,6 +114,13 @@ ul {
 	color: #a3a0b5;
 
 }
+.outer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
 
 
 

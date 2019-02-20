@@ -1,8 +1,8 @@
  li {
  	border: 3px solid #ffffff;
  	list-style-type: none;
-	
- 	 }
+ 	
+ }
  body {
  	background-color: #3399cc;
  }
@@ -10,9 +10,9 @@
  	color: white;
  	background:#3399cc;  	
  	font-size: 0;
-	  }
+ }
  li.col12 { 	 	
- 	width: 265.5px;
+ 	width: 310px;
  	border: solid 2px #fff;
  	outline: solid 2px #fff;
  	font-size: 20px;
@@ -27,14 +27,14 @@
  li.col2 {
  	background: #996699;
  	width: 122.5px;	
-	border: solid 2px #fff;
-	outline: solid 2px #fff;	
-	font-size: 20px;
+ 	border: solid 2px #fff;
+ 	outline: solid 2px #fff;	
+ 	font-size: 20px;
  }
  li.col3 {
  	background:#c24747;
-	width: 122.5px;
-	border: solid 2px #fff;
+ 	width: 122.5px;
+ 	border: solid 2px #fff;
  	outline: solid 2px #fff;
  	font-size: 20px
  }
@@ -66,7 +66,7 @@
  	outline: solid 2px #fff;
  	font-size: 20px
  }
-  li.col8 {
+ li.col8 {
  	background: #cc6699;
  	width: 284px;
  	border: solid 2px #fff;
@@ -116,7 +116,7 @@
  ul.gun {
  	margin: 0;
  	padding: 0;
- 	
+
 
  }
  li.col12, li.col1, li.col2 {
@@ -142,5 +142,5 @@
  	margin: 0;
  	display: inline-block;
  	font-size: 20px
- 	}
+ }
  
