@@ -1,20 +1,53 @@
-h1.diner {
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1.main-title {
+	margin: 0;
+	padding: 0;
+	
+}
+.header {
+	background-color: #4a4f56;
 	color:#eb7e7f;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	background-color: #4a4f56;
+	text-align: center;
 
-	
+
 }
-h3 {
-	color:#eb7e7f;
-	background-color: #4a4f56;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 20px;
 
+form.order {
+	width: 100%;	
+	text-align: center;
+	
+	padding-top: 10px;
+	margin: 0;
+	padding-bottom: 0;
+	
+
+}
+.dinner_item1 {
+	background-color: #88839e;
+	width: 320px;
+}
+.dinner_item2 {
+	background-color: #7a7593;
+}
+.dinner_item3 {
+	background-color: #88839e;
+}
+.dinner_item4 {
+	background-color: #7a7593;
+}
+.dinner_item5 {
+	background-color: #88839e;
+}
+.dinner_item6 {
+	background-color: #7a7593;
 }
 body {
 	background-color:#3b3f45;
