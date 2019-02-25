@@ -11,8 +11,8 @@ h1.main-title {
 .header {
 	background-color: #4a4f56;
 	color:#eb7e7f;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 5px 5px;
 	border: 0px;
 	background-color: #4a4f56;
 	text-align: center;
@@ -21,18 +21,18 @@ h1.main-title {
 }
 
 form.order {
-	width: 100%;	
+		
 	text-align: center;
-	
+	max-width: 100%;
 	padding-top: 10px;
-	margin: 0;
+	margin: auto;
 	padding-bottom: 0;
-	
+
 
 }
 .dinner_item1 {
 	background-color: #88839e;
-	width: 320px;
+	
 }
 .dinner_item2 {
 	background-color: #7a7593;
@@ -54,16 +54,13 @@ body {
 	color:white;
 	margin: 0px;
 }
-small {
-	color:#88839e;
-	opacity: 1;
-}
+
 p {
 	text-align: justify;
 }		
 
 .list_diner {	
-	max-width: 286px;	
+	
 	margin: auto;
 
 }
@@ -78,13 +75,13 @@ p {
 }
 
 li {
-	height: 35px;
+	padding: 0;
+	margin: 0;
 	list-style-type: none;
 
+
 }
-h3 {
-	height: 35px;
-}
+
 ul {
 	margin-left: 0;
 	padding-left: 0;
