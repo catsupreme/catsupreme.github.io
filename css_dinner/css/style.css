@@ -22,8 +22,8 @@ h1.main-title {
 
 form.order {
 		
-	text-align: center;
-	max-width: 100%;
+	max-width: 50%;
+	width: 300px;
 	padding-top: 10px;
 	margin: auto;
 	padding-bottom: 0;
