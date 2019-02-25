@@ -1,4 +1,4 @@
-h1.door {
+h1.diner {
 	color:#eb7e7f;
 	margin: 0px;
 	padding: 0px;
@@ -29,85 +29,21 @@ p {
 	text-align: justify;
 }		
 
-.col1 {
-	text-align: center;
-	background-color: #88839e;
-	padding-right: 250px;
-	display: block;
-	cursor: pointer;
-	width: 286px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
+.list_diner {	
+	max-width: 286px;	
+	margin: auto;
+
 }
 
-.col2 {
-	text-align: center;
-	background-color: #88839e;
-	padding-right: 270px;
-	width: 266px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
-	display: block;
-	cursor: pointer;
-}
-.col3 {
-	text-align: center;
-	background-color: #7a7593;
-	padding-right: 275px;
-	width: 261px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
-	display: block;
-	cursor: pointer;
-}
-.col4 {
-	text-align: center;
-	background-color:#88839e;
-	padding-right: 430px;
-	width: 106px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
-	cursor: pointer;
-}
-.col5 {
+
+.appetit {
 	background-color: #4a4f56;
 	text-align: center;
-	width: 540px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
+	max-width: 540px;
+	margin: auto;
 
 }
-.col6 {
-	background-color: #7a7593;
-	text-align: center;
-	padding-right: 275px;
-	width: 261px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
-	cursor: pointer;
-}
-.col7 {
-	text-align: center;
-	background-color: #7a7593;
-	padding-right: 265px;
-	width: 271px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-top: 0;
-	cursor: pointer;
-}
+
 li {
 	height: 35px;
 	list-style-type: none;
