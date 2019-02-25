@@ -1,4 +1,4 @@
-h1.bee {
+h1.door {
 	color:#eb7e7f;
 	margin: 0px;
 	padding: 0px;
@@ -39,7 +39,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0;
-	}
+}
 
 .col2 {
 	text-align: center;
@@ -145,7 +145,3 @@ ul {
 	border: 0;
 	
 }
-
-
-
-
