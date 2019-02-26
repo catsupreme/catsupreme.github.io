@@ -58,10 +58,11 @@ p {
 	background-color: #4a4f56;
 	color: #eb7e7f;
 	max-width: 1000px;
-	margin: auto;
+	margin: 10px 0;
 	padding-top: 10px;
 	border: 0;
-	width: 600px
+	width: 600px;
+	width: 100%;
 
 }
 
@@ -86,13 +87,15 @@ ul {
 .dinner_list:active {
 	background-color: #eb7e7f;
 }
+.dinner_list [type="checkbox"] {
+	zoom: 150%; }
 
-.block {
-	width: 20px
-}
-.list_diner [type="checkbox"]:checked ~ *{
-	text-decoration: line-through solid #a3a0b5;
-	opacity: 0.5;
-	color: #a3a0b5;
+	.block {
+		width: 20px
+	}
+	.list_diner [type="checkbox"]:checked ~ *{
+		text-decoration: line-through solid #a3a0b5;
+		opacity: 0.5;
+		color: #a3a0b5;
 
-}
+	}
