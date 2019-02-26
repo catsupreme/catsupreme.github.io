@@ -21,9 +21,8 @@ h1.main-title {
 }
 
 form.order {
-		
+
 	max-width: 50%;
-	width: 380px;
 	padding-top: 10px;
 	margin: auto;
 	padding-bottom: 0;
@@ -31,25 +30,13 @@ form.order {
 	white-space: nowrap;
 	
 }
-.dinner_item1 {
-	background-color: #88839e;
-	
+.dinner_item:nth-child(odd)  {
+	background-color: #88839e; 
 }
-.dinner_item2 {
+.dinner_item:nth-child(even) {
 	background-color: #7a7593;
 }
-.dinner_item3 {
-	background-color: #88839e;
-}
-.dinner_item4 {
-	background-color: #7a7593;
-}
-.dinner_item5 {
-	background-color: #88839e;
-}
-.dinner_item6 {
-	background-color: #7a7593;
-}
+
 body {
 	background-color:#3b3f45;
 	color:white;
@@ -70,10 +57,11 @@ p {
 .appetit {
 	background-color: #4a4f56;
 	color: #eb7e7f;
-	max-width: 500px;
+	max-width: 1000px;
 	margin: auto;
 	padding-top: 10px;
 	border: 0;
+	width: 600px
 
 }
 
@@ -90,12 +78,12 @@ ul {
 	padding-left: 0;
 }
 
-.dinner_item1:hover, .dinner_item2:hover, .dinner_item3:hover, .dinner_item4:hover, .dinner_item5:hover, .dinner_item6:hover {
+.dinner_item:hover {
 	background-color: #625e77;
 	outline: 2px solid #ffffff ;
 
 }
-.dinner_item1:active, .dinner_item2:active, .dinner_item3:active, .dinner_item4:active, .dinner_item5:active, .dinner_item6:active {
+.dinner_item:active {
 	background-color: #eb7e7f;
 }
 
