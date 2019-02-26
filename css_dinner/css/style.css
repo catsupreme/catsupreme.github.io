@@ -19,6 +19,20 @@ h1.main-title {
 
 
 }
+.dinner_list {
+	
+	padding-left: 15px;	
+	border: 2px solid transparent;
+	border-left: none;
+	border-right: none;
+	cursor: pointer;
+	line-height: 1.5;
+ 
+}
+.dinner_item {
+	min-width: 100%;
+	min-height: 100%;
+}
 
 form.order {
 
@@ -61,7 +75,6 @@ p {
 	margin: 10px 0;
 	padding-top: 10px;
 	border: 0;
-	width: 600px;
 	width: 100%;
 
 }
