@@ -19,15 +19,13 @@ h1.main-title {
 
 
 }
-.dinner_list {
-	
-	
-	border: 2px solid transparent;
-	border-left: none;
-	border-right: none;
+.dinner_list {	
+		
 	cursor: pointer;
 	line-height: 1.5;
 	vertical-align: middle;
+	
+
 }
 .dinner_item {
 	display: flex;
@@ -35,8 +33,14 @@ h1.main-title {
 	min-height: 80px;
 	vertical-align: middle;
 	align-items: center;
+	cursor: pointer;
+	border: 2px solid transparent;
+	border-left: none;
+	border-right: none;
 }
-
+.dinner_item > *:not(:last-child) {
+	margin-right: .8rem; 
+}
 
 
 form.order {
@@ -108,14 +112,16 @@ ul {
 	background-color: #eb7e7f;
 }
 .dinner_list [type="checkbox"] {
-	zoom: 150%; }
+	zoom: 150%; 
+	
+}
 
-	.block {
-		width: 20px
-	}
-	.list_diner [type="checkbox"]:checked ~ *{
-		text-decoration: line-through solid #a3a0b5;
-		opacity: 0.5;
-		color: #a3a0b5;
+.block {
+	width: 20px
+}
+.list_diner [type="checkbox"]:checked ~ *{
+	text-decoration: line-through solid #a3a0b5;
+	opacity: 0.5;
+	color: #a3a0b5;
 
-	}
+}
