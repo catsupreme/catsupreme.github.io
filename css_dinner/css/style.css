@@ -20,7 +20,7 @@ h1.main-title {
 
 }
 .dinner_list {	
-		
+
 	cursor: pointer;
 	line-height: 1.5;
 	vertical-align: middle;
@@ -41,8 +41,6 @@ h1.main-title {
 .dinner_item > *:not(:last-child) {
 	margin-right: .8rem; 
 }
-
-
 form.order {
 
 	max-width: 50%;
