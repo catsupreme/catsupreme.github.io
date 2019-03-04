@@ -115,7 +115,7 @@ ul {
 
 }
 
-.dinner_list:active {
+.dinner_item:active {
 	background-color: #eb7e7f;
 }
 .dinner_list [type="checkbox"] {
