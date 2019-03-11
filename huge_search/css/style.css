@@ -18,13 +18,14 @@ input[type="text"]:focus {
 	align-items: center;
 	justify-content: flex-start;
 	font-size: 0;
+	margin-bottom: 20px;
 }
 
 .container {
 	margin: auto;	
 	width: 100%;
 	max-width: 1140px;		
-	padding: 50px 0;
+	padding: 20px 0;
 }
 input[type="text"] {
 	width: 100%;
@@ -64,7 +65,7 @@ input[type="submit"] {
 	display: inline-block;
     width: 100%;
     max-width: 300px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 .table {
 	display: inline-block;
@@ -77,12 +78,17 @@ input[type="submit"] {
     max-width: 320px;
     margin-right: 43px;
 }
+.peoples:last-child {
+    margin-right: 0;
+}
 
 .people {
 	padding-top: 10px;
 }
+.peoples:first-child .photo {
+    border-radius: 50%;
+}
 img.photo {
-	border-radius: 50%;
 	margin: 10px;
 	vertical-align: middle;
 }
@@ -94,7 +100,7 @@ img.photo {
 .people_a {
 	display: block;
 	background-color: rgba(118,117,128,0.05);
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 900;
 	width: 100%;
 	text-decoration: none;
