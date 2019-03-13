@@ -26,7 +26,7 @@ input[type="text"]:focus {
 .container {
 	margin: auto;	
 	width: 100%;
-	max-width: 1140px;		
+	max-width: 1110px;		
 	padding: 20px 0;
 }
 input[type="text"] {
@@ -47,9 +47,9 @@ input[type="text"] {
 	color: #c2c2c2;
 }
 input[type="submit"] {
-	width: 15%;	
 	display: inline-block;	
-	height: 160px;	
+	height: 190px;	
+	width: 190px;
 	border: none;
 	outline: none;
 	background: #f1f1f1 url("../images/favicon.png") no-repeat;
@@ -73,17 +73,19 @@ input[type="submit"] {
 	display: inline-block;
     width: 100%;
     max-width: 335px;
-    margin-right: 60px;
+
 }
 .table {
 	display: inline-block;
 	width: 100%;
 	max-width: 1140px;
 }
+.peoples:nth-child(2n) {
+	margin: 0 4%;
+}
 .huge {
 	display: inline-block;
     width: 100%;
-    max-width: 320px;
     margin-right: 43px;
 }
 .peoples:last-child {
