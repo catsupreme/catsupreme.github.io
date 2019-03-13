@@ -94,6 +94,7 @@ input[type="submit"] {
 
 .people {
 	margin-bottom: 10px;
+	list-style: none;
 }
 .peoplt:last-child {
 	margin-bottom: 0;
