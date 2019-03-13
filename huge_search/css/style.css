@@ -28,6 +28,7 @@ input[type="text"]:focus {
 	width: 100%;
 	max-width: 1110px;		
 	padding: 20px 0;
+	padding-bottom: 0;
 }
 input[type="text"] {
 	width: 100%;
@@ -86,7 +87,6 @@ input[type="submit"] {
 .huge {
 	display: inline-block;
     width: 100%;
-    margin-right: 43px;
 }
 .peoples:last-child {
     margin-right: 0;
@@ -96,14 +96,14 @@ input[type="submit"] {
 	margin-bottom: 10px;
 	list-style: none;
 }
-.peoplt:last-child {
+.people:last-child {
 	margin-bottom: 0;
 }
 .peoples:first-child .photo {
     border-radius: 50%;
 }
 img.photo {
-	padding: 10px;
+	margin-right: 10px;
 	vertical-align: middle;
 }
 .text_people {
@@ -118,6 +118,7 @@ img.photo {
 	font-weight: 700;
 	width: 100%;
 	text-decoration: none;
+	padding: 10px;
 	
 }
 .people_a:hover {	
