@@ -1,0 +1,22 @@
+.container2 {
+	width: 100%;
+	background: url("../img/choose-bg.png") no-repeat;
+	height: 100vh;
+
+	&__div-p {
+		display: flex;
+		width: 100%;
+		max-width: 530px;
+	}
+
+	&__p {
+		color: $white-color;
+		font-size: 50px;
+		font-family: $main-font;
+	}
+}
+
+.row2 {	
+	background: url("../img/choose-2.png") no-repeat 60% 50%;
+	background: url("../img/choose-1.png") no-repeat 100% 50%;
+}

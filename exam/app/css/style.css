@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
+@font-face {
+	font-family: "Aleo";
+	src: url("../fonts/aleo/aleo-regular-webfont.eot"), url("../fonts/aleo/aleo-regular-webfont.woff"), url("../fonts/aleo/aleo-regular-webfont.woff2"), url("../fonts/aleo/aleo-regular-webfont.ttf"), url("../fonts/aleo/aleo-regular-webfont.svg");
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	max-width: 1140px;
+}
+
+.first-screen .row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.first-screen .row > * {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+}
+
+.first-screen {
+	width: 100%;
+	background: url("../img/header-bg.png") no-repeat;
+}
+.first-screen__p {
+	display: block;
+	color: #fff;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 50px;
+	letter-spacing: 2px;
+	margin-top: 230px;
+}
+.first-screen__p2 {
+	color: #fff;
+	font-size: 19px;
+	letter-spacing: 7px;
+	font-family: "Josefin Sans", sans-serif;
+	margin-bottom: 54px;
+}
+.first-screen__form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border: 2px solid #fff;
+	max-width: 650px;
+	height: 60px;
+}
+.first-screen__input {
+	border: none;
+	max-width: 500px;
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+.first-screen__input2 {
+	color: #fff;
+	border: none;
+	display: inline-block;
+	width: 145px;
+	height: 56px;
+	background: url("../img/search-icon.svg") no-repeat 90% 50%;
+	background-color: #5474fd;
+}
+.first-screen__scroll {
+	color: #fff;
+	font-family: "Josefin Sans", sans-serif;
+	margin-top: 130px;
+}
+
+.div-ul {
+	background-color: #5474fd;
+	width: 100%;
+}
+.div-ul__ul {
+	height: 80px;
+}
+.div-ul__li:first-child {
+	color: #fff;
+	font-family: "Josefin Sans", sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.div-ul__li {
+	display: inline;
+	margin-right: 50px;
+}
+.div-ul__a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container2 {
+	width: 100%;
+	background: url("../img/choose-bg.png") no-repeat;
+	height: 100vh;
+}
+.container2__div-p {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	max-width: 530px;
+}
+.container2__p {
+	color: #fff;
+	font-size: 50px;
+	font-family: "Aleo", sans-serif;
+}
+
+.row2 {
+	background: url("../img/choose-2.png") no-repeat 60% 50%;
+	background: url("../img/choose-1.png") no-repeat 100% 50%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
