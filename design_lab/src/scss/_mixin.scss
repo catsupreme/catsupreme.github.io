@@ -1,0 +1,28 @@
+@mixin border-div($border-color: $text-color){
+	$border-size: 2px;
+	$border: $border-size solid $border-color;
+	border: $border;
+	border-top: none;
+	padding: 50px 0 20px;
+	position: relative;
+
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+		max-width: 30%;
+		width: 100%;
+		border-top: $border;
+		position: absolute;
+		top: 0;
+	}
+
+	&::before {
+		left: 0;
+	}
+
+	&::after {
+		right: 0;
+	}
+	@content
+}
