@@ -1,33 +1,57 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 
+html,
+body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	font-family: Roboto, sans-serif;
+	background-color: #eee;
+}
+
 .container {
 	width: 100%;
-	max-width: 1140px;
-	margin: 30px auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
 .header {
-	margin-bottom: 20px;
-	width: 100%;
-	margin: auto;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	padding-top: 60px;
+	margin-bottom: 105px;
+	color: #000;
+	font-family: "Roboto", sans-serif;
+}
+.header__div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
 }
-.header__h2 {
-	font-size: 50px;
+.header__a1 {
+	display: block;
+	font-size: 3rem;
 	font-weight: 900;
-	font-family: sans-serif;
+}
+.header__a1:hover {
+	color: #e10011;
 }
 .header__ul {
 	display: -webkit-box;
@@ -36,24 +60,26 @@
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	-ms-flex-preferred-size: 100%;
-	flex-basis: 100%;
-}
-.header__nav {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	width: 30%;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-.header__li {
-	position: relative;
-	list-style: none;
+	-ms-flex-preferred-size: 30%;
+	flex-basis: 30%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 .header__a {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.header__a:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	        transform: scale(1.1, 1.1);
+	color: #e10011;
+}
+
+a {
 	display: block;
-	font-weight: 300;
 	text-decoration: none;
+	color: #000;
 }
