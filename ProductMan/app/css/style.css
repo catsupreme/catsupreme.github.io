@@ -26,12 +26,6 @@ a {
 	margin: auto;
 }
 
-.div-flex {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
 .header {
 	display: -webkit-box;
 	display: -ms-flexbox;
