@@ -14,10 +14,22 @@ body {
 	background-color: #eee;
 }
 
+a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
 .container {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
+}
+
+.div-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 .header {
@@ -27,7 +39,6 @@ body {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	width: 100%;
 	margin: auto;
 	padding-top: 60px;
 	margin-bottom: 105px;
@@ -35,9 +46,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 .header__div {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
@@ -57,6 +65,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	max-width: 30%;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
@@ -76,10 +85,4 @@ body {
 	-webkit-transform: scale(1.1, 1.1);
 	        transform: scale(1.1, 1.1);
 	color: #e10011;
-}
-
-a {
-	display: block;
-	text-decoration: none;
-	color: #000;
 }

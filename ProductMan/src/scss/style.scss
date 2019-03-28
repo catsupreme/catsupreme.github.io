@@ -12,17 +12,24 @@ body {
 	font-family: Roboto, sans-serif;
 	background-color: #eeeeee;
 }
+a {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
 
 .container {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
 }
+.div-flex {
+	display: flex;
+}
 
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
 	margin: auto;
 	padding-top: 60px;
 	margin-bottom: 105px;
@@ -31,7 +38,6 @@ body {
 
 
 	&__div {
-		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -39,6 +45,7 @@ body {
 		display: block;
 		font-size: 3rem;
 		font-weight: 900;
+
 	}
 
 	&__a1:hover {
@@ -47,6 +54,7 @@ body {
 
 	&__ul {
 		display: flex;
+		max-width: 30%;
 		justify-content: space-between;
 		flex-basis: 30%;
 		align-items: center;
@@ -67,11 +75,9 @@ body {
 
 
 
-a {
-	display: block;
-	text-decoration: none;
-	color: #000000;
-}
+
+
+
 
 
 
